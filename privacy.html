@@ -5,73 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Privacy Policy — Lumio</title>
   <style>
+    /* Mevcut stillerini korudum... */
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: #f9f9f9;
-      color: #222;
-      line-height: 1.7;
+      background: #f9f9f9; color: #222; line-height: 1.7;
     }
-    .container {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 48px 24px 80px;
-    }
-    header {
-      margin-bottom: 40px;
-      border-bottom: 2px solid #e0e0e0;
-      padding-bottom: 24px;
-    }
-    header h1 {
-      font-size: 2rem;
-      font-weight: 700;
-      color: #111;
-    }
-    header p {
-      margin-top: 6px;
-      color: #666;
-      font-size: 0.95rem;
-    }
-    h2 {
-      font-size: 1.15rem;
-      font-weight: 600;
-      margin: 36px 0 10px;
-      color: #111;
-    }
+    .container { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+    header { margin-bottom: 40px; border-bottom: 2px solid #e0e0e0; padding-bottom: 24px; }
+    header h1 { font-size: 2rem; font-weight: 700; color: #111; }
+    header p { margin-top: 6px; color: #666; font-size: 0.95rem; }
+    h2 { font-size: 1.15rem; font-weight: 600; margin: 36px 0 10px; color: #111; }
     p { margin-bottom: 12px; color: #333; }
     ul { margin: 8px 0 12px 20px; }
     ul li { margin-bottom: 6px; color: #333; }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 12px 0;
-      font-size: 0.92rem;
-    }
-    th, td {
-      text-align: left;
-      padding: 10px 14px;
-      border: 1px solid #ddd;
-    }
+    table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 0.85rem; }
+    th, td { text-align: left; padding: 10px 14px; border: 1px solid #ddd; }
     th { background: #f0f0f0; font-weight: 600; }
-    .highlight {
-      background: #f0f7ff;
-      border-left: 4px solid #2979ff;
-      padding: 14px 18px;
-      border-radius: 4px;
-      margin: 24px 0;
-      font-size: 0.95rem;
-      color: #1a237e;
-    }
+    .highlight { background: #f0f7ff; border-left: 4px solid #2979ff; padding: 14px 18px; border-radius: 4px; margin: 24px 0; font-size: 0.95rem; color: #1a237e; }
     a { color: #2979ff; text-decoration: none; }
     a:hover { text-decoration: underline; }
-    footer {
-      margin-top: 60px;
-      padding-top: 24px;
-      border-top: 1px solid #e0e0e0;
-      font-size: 0.85rem;
-      color: #888;
-      text-align: center;
-    }
+    footer { margin-top: 60px; padding-top: 24px; border-top: 1px solid #e0e0e0; font-size: 0.85rem; color: #888; text-align: center; }
   </style>
 </head>
 <body>
@@ -79,64 +33,51 @@
 
   <header>
     <h1>Privacy Policy — Lumio</h1>
-    <p><strong>Effective date:</strong> March 2, 2026 &nbsp;·&nbsp; <strong>Developer:</strong> Hakan Başakçıoğlu</p>
+    <p><strong>Last Updated:</strong> March 29, 2026 &nbsp;·&nbsp; <strong>Developer:</strong> Hakan Başakçıoğlu</p>
   </header>
 
   <div class="highlight">
-    Lumio stores all your data locally on your device. We don't collect it, we don't see it, and we never will.
+    Lumio values your privacy. While most data is stored locally, we use industry-standard third-party services for advertising and app analytics to improve your experience.
   </div>
 
   <h2>1. Overview</h2>
-  <p>Lumio is an offline note-taking app for capturing text from books and physical sources using your camera and on-device OCR. Privacy is a core principle: <strong>your notes never leave your device.</strong></p>
+  <p>Lumio is a note-taking app designed to help users capture and manage text using on-device OCR. This policy describes how we handle data through our app and third-party integrations.</p>
 
-  <h2>2. Data We Collect</h2>
-  <p><strong>We do not collect any personal data.</strong></p>
-  <p>All content you create — notes, OCR results, book records, and saving types — is stored exclusively in a local database on your device (SQLite). This data is never transmitted to any server, cloud service, or third party.</p>
+  <h2>2. Data Collection & Local Storage</h2>
+  <p><strong>Your notes never leave your device.</strong> All note content, book records, and saving types are stored in a local SQLite database. We do not have access to your private notes.</p>
 
-  <h2>3. Camera Permission</h2>
-  <p>Lumio requests camera access solely to capture images for text recognition (OCR). Images and camera frames are processed entirely on-device and are never uploaded, stored externally, or shared.</p>
-
-  <h2>4. Text Recognition (OCR)</h2>
-  <p>Lumio uses <strong>Google ML Kit Text Recognition</strong>, which operates fully on-device. No image or text data is sent to Google's servers as part of the OCR process.</p>
-
-  <h2>5. In-App Purchases &amp; Subscriptions</h2>
-  <p>Lumio offers an optional monthly subscription (Lumio Premium) through <strong>Google Play Billing</strong>. All payment processing is handled exclusively by Google. Lumio does not collect, store, or have access to your payment information or billing details.</p>
-  <p>For details on how Google handles your payment data, see <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</p>
-
-  <h2>6. Export &amp; Import</h2>
-  <p>Lumio allows you to export your notes as a JSON file to your device's local storage and import them back. This functionality is entirely local — exported files are never transmitted by Lumio.</p>
-
-  <h2>7. Third-Party Services</h2>
+  <h2>3. Third-Party Services</h2>
+  <p>To support the development and improve the app, we integrate the following third-party services which may collect certain information (such as Advertising IDs and device usage data):</p>
+  
   <table>
     <thead>
-      <tr><th>Service</th><th>Purpose</th><th>Data Sent?</th></tr>
+      <tr><th>Service</th><th>Purpose</th><th>Provider Policy</th></tr>
     </thead>
     <tbody>
-      <tr><td>Google ML Kit (Text Recognition)</td><td>On-device OCR</td><td>No</td></tr>
-      <tr><td>Google Play Billing</td><td>Subscription processing</td><td>Handled by Google</td></tr>
+      <tr><td>Google AdMob</td><td>Displaying banner ads</td><td><a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a></td></tr>
+      <tr><td>Unity Ads</td><td>Displaying banner ads</td><td><a href="https://unity.com/legal/privacy-policy" target="_blank">Privacy Policy</a></td></tr>
+      <tr><td>Firebase Analytics</td><td>App usage statistics</td><td><a href="https://firebase.google.com/support/privacy" target="_blank">Privacy Policy</a></td></tr>
+      <tr><td>Google Play Billing</td><td>Payment processing</td><td><a href="https://payments.google.com/payments/apis-consumer/res/dem_p_p.html" target="_blank">Privacy Policy</a></td></tr>
+      <tr><td>Google ML Kit</td><td>On-device text recognition</td><td><a href="https://developers.google.com/ml-kit/terms" target="_blank">Privacy Policy</a></td></tr>
     </tbody>
   </table>
-  <p>No analytics, advertising, crash reporting, or tracking SDKs are included in Lumio.</p>
 
-  <h2>8. Data Sharing</h2>
-  <p>We do not share, sell, rent, or trade any user data with any third party, because we do not collect any user data in the first place.</p>
+  <h2>4. Advertising and Analytics</h2>
+  <p>We use <strong>AdMob</strong> and <strong>Unity Ads</strong> to show advertisements. These providers may use your device's Advertising ID to show personalized ads. You can opt-out of personalized ads via your Android device settings.</p>
+  <p>We use <strong>Firebase Analytics</strong> to understand how users interact with the app (e.g., which buttons are clicked). This data is anonymized and used solely for improving the app's functionality.</p>
 
-  <h2>9. Data Deletion</h2>
-  <p>All data exists only on your device. You can delete it at any time by:</p>
+  <h2>5. Permissions</h2>
   <ul>
-    <li>Uninstalling the app — removes all locally stored notes and settings.</li>
-    <li>Going to <strong>Settings → Apps → Lumio → Storage → Clear Data</strong> on your Android device.</li>
+    <li><strong>Camera:</strong> Used only for OCR. Images are processed locally and not stored or shared.</li>
+    <li><strong>Internet:</strong> Required for ad delivery, analytics, and subscription verification.</li>
   </ul>
 
-  <h2>10. Children's Privacy</h2>
-  <p>Lumio does not knowingly collect data from children under 13. As the app collects no personal data from any user, there are no special concerns regarding children's privacy.</p>
+  <h2>6. Data Deletion</h2>
+  <p>You can delete all locally stored data by uninstalling the app or clearing its storage in your device's settings.</p>
 
-  <h2>11. Changes to This Policy</h2>
-  <p>We may update this Privacy Policy from time to time. Changes will be reflected with an updated effective date at the top of this page.</p>
-
-  <h2>12. Contact</h2>
-  <p>If you have any questions about this Privacy Policy, please contact us at:<br/>
-  <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+  <h2>7. Contact</h2>
+  <p>Questions? Contact us at:<br/>
+  <a href="mailto:hbasakcioglu@gmail.com">hbasakcioglu@gmail.com</a></p>
 
   <footer>
     &copy; 2026 Lumio &nbsp;·&nbsp; All rights reserved
@@ -145,4 +86,3 @@
 </div>
 </body>
 </html>
-
